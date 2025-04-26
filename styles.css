@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #222;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url('./images/11fd863697dd076852a1caf6e7399a67.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+header {
+    background: linear-gradient(to right, #98fb98, #ff8c00, #ff69b4, #6495ed, #ffa500, #228b22, #00ced1, #ee82ee);
+    padding: 10px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    margin: 0 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+    
+}
+.menu a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card {
+    width: 250px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Цвета карточек */
+.samsung { border: 3px solid #00bfff; }
+.iphone { border: 3px solid #ff1493; }
+.xiaomi { border: 3px solid #ffcc00; }
+.pixel { border: 3px solid #32cd32; }
+.huawei { border: 3px solid #ff4500; }
+.oneplus { border: 3px solid #2e8b57; }
+.vivo { border: 3px solid #1e90ff; }
+.infinix { border: 3px solid #ee82ee; }
+.realme { border: 3px solid #d3d3d3; }
+
+.tab:hover{
+    transform: scale(1.05);
+}
