@@ -80,3 +80,8 @@ header {
 .tab:hover{
     transform: scale(1.05);
 }
+.card-link{
+    text-decoration: none;
+    display: block;
+    color: inherit;
+}
